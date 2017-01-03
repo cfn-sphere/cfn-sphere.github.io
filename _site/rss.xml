@@ -5,8 +5,8 @@
         <description>Cfn-Sphere Documentation - Marco Hoyer</description>
         <link>http://cfn-sphere.github.io</link>
         <atom:link href="http://cfn-sphere.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 03 Jan 2017 16:06:16 +0100</lastBuildDate>
-        <pubDate>Tue, 03 Jan 2017 16:06:16 +0100</pubDate>
+        <lastBuildDate>Tue, 03 Jan 2017 16:14:11 +0100</lastBuildDate>
+        <pubDate>Tue, 03 Jan 2017 16:14:11 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -23,6 +23,8 @@
 &lt;h2 id=&quot;how-it-works&quot;&gt;How it works&lt;/h2&gt;
 
 &lt;h3 id=&quot;what-you-can-do-in-your-cfn-sphere-stack-config-file&quot;&gt;What you can do in your cfn-sphere stack config file:&lt;/h3&gt;
+
+&lt;p&gt;Cfn-Sphere reads plain content (in utf-8) from any file and takes it as parameter value. &lt;br /&gt;Furthermore it allows to make &lt;strong&gt;JMESPath queries on YAML or JSON files&lt;/strong&gt; (&lt;a href=&quot;http://jmespath.org&quot;&gt;jmespath.org&lt;/a&gt;).&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;region&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;eu-west-1&lt;/span&gt;
 &lt;span class=&quot;s&quot;&gt;stacks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;

@@ -13,6 +13,8 @@ Sometimes you may want to configure your stack with data contained within a file
 
 ### What you can do in your cfn-sphere stack config file:
 
+Cfn-Sphere reads plain content (in utf-8) from any file and takes it as parameter value. <br/>Furthermore it allows to make **JMESPath queries on YAML or JSON files** ([jmespath.org](http://jmespath.org)).
+
 {% highlight YAML %}
 region: eu-west-1
 stacks:

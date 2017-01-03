@@ -157,6 +157,8 @@
 
 <h3 id="what-you-can-do-in-your-cfn-sphere-stack-config-file">What you can do in your cfn-sphere stack config file:</h3>
 
+<p>Cfn-Sphere reads plain content (in utf-8) from any file and takes it as parameter value. <br />Furthermore it allows to make <strong>JMESPath queries on YAML or JSON files</strong> (<a href="http://jmespath.org">jmespath.org</a>).</p>
+
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">region</span><span class="pi">:</span> <span class="s">eu-west-1</span>
 <span class="s">stacks</span><span class="pi">:</span>
   <span class="s">my-app</span><span class="pi">:</span>
