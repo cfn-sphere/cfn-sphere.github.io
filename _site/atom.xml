@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>CFN-Sphere Documentation</title>
+ <link href="http://cfn-sphere.github.io/atom.xml" rel="self"/>
+ <link href="http://cfn-sphere.github.io"/>
+ <updated>2017-01-03T14:34:37+01:00</updated>
+ <id>http://cfn-sphere.github.io</id>
+ <author>
+   <name>Marco Hoyer</name>
+   <email>marco_hoyer@gmx.de</email>
+ </author>
+
+ 
+ 
+</feed>
