@@ -25,7 +25,7 @@ stacks:
   my-distribution-bucket:
     template-url: templates/bucket.yml
     parameters:
-      trustedAccountIds: "|Ref|s3://myBucket/accounts.json|accounts.[].id"
+      trustedAccountIds: "|File|s3://myBucket/accounts.json|accounts.[].id"
 {% endhighlight %}
 
 #### Example content of artifactVersion.txt:
